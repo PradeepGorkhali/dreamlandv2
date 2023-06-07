@@ -1,0 +1,16 @@
+.home__banner > img {
+  width: 100%;
+}
+.about__description {
+  padding: 25px 30px 25px 30px;
+}
+.about__description > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  color: #000000;
+}

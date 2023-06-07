@@ -1,0 +1,89 @@
+.Test__contents__container {
+  padding: 50px 10px;
+}
+.Test__contents__itemone {
+  display: flex;
+  justify-content: space-between;
+}
+.Test__contents__image{
+  padding: 81px 112px 44px 20px;
+}
+.Test__contents__image > img {
+  width: 180%;
+}
+.Test__contents__heading__description {
+  padding: 50px 30px;
+}
+.Test__contents__head > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: justify;
+
+  color: #d92938;
+  text-align: left;
+}
+.Test__contents__para2 > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  /* or 167% */
+
+  color: #000000;
+}
+.Test__contents__para > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  /* or 167% */
+
+  color: #000000;
+}
+.Test__contents__container__selection {
+  padding: 50px 10px;
+  background-color: #d9d9d9;
+}
+.Test__contents__itemtwo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.Test__contents__image_selection {
+  padding-left: 10px;
+}
+.Test__contents__image_selection > img {
+  width: 60%;
+}
+
+
+@media only screen and (max-width: 560px) {
+  .Test__contents__itemone {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Test__contents__itemtwo {
+    display: flex;
+    flex-direction: column;
+  }
+  .Test__contents__image {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: center;
+  }
+  .Test__contents__image > img {
+    width: 100%;
+    margin: auto;
+  }
+}

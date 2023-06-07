@@ -1,0 +1,72 @@
+.drop-menu {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+}
+.drop-menu:hover {
+  background-color: rgb(247, 0, 0) !important;
+  color: white !important;
+}
+.australia-menu .uk-menu .us-menu .japan-menu .canada-menu .newzealand-menu {
+  background-color: white !important;
+  color: black !important;
+}
+.australia-menu:hover {
+  background: url(images/australia.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.uk-menu:hover {
+  background: url(images/canada.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.us-menu:hover {
+  background: url(images/usa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.japan-menu:hover {
+  background: url(images/japan.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.canada-menu:hover {
+  background: url(images/canada.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.newzealand-menu:hover {
+  background: url(/public/images/newzealand.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white !important;
+  width: 160px;
+}
+.logo {
+  width: 10%;
+}
+
+@media only screen and (max-width: 560px) {
+  .main__container {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .logo {
+    width: 10%;
+    margin-left: 159px;
+  }
+  .navbar-toggler {
+    margin-left: 150px;
+    background-color: #d92938 !important;
+  }
+}

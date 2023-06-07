@@ -1,0 +1,89 @@
+.OurBlog_Title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  width: 200px;
+  height: 37px;
+  margin: 51px auto;
+  text-align: left;
+}
+.Home_Ourblog_Container {
+  max-width: 1350px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.Home_Ourblog_Card {
+  margin-top: 15px;
+  width: 400px;
+  height: 574px;
+}
+.Ourblog_Card_Img {
+  width: 398px;
+  height: 300px;
+}
+.Ourblog_Card_Title {
+  width: 398px;
+  height: 272px;
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.Ourblog_Card_Heading {
+  width: 376px;
+  height: 49px;
+  margin: 15px auto;
+}
+.Ourblog_Card_Heading > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.62);
+  text-align: justify;
+}
+.Ourblog_Card_Paragraph {
+  width: 376px;
+  height: 87px;
+  margin: 0px auto 25px auto;
+}
+.Ourblog_Card_Paragraph > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+}
+.Ourblog_Card_Button {
+  margin: 0 auto;
+  width: 170px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Ourblog_ReadMore_Btn {
+  width: 161px;
+  height: 40px;
+  background: #e02222;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+}

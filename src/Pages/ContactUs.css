@@ -1,0 +1,90 @@
+.home__banner > img {
+  width: 100%;
+}
+.contact__title > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.form__map {
+  display: flex;
+  justify-content: space-between;
+}
+.social__icons {
+  display: flex;
+  justify-content: space-around;
+}
+.contact__map__name > h3 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #d92938;
+}
+.contact__map__address > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #000000;
+  text-align: center;
+}
+.form__map__container {
+  padding: 90px 70px;
+}
+.contact__map__name {
+  padding: 20px;
+}
+.advertisement_second_wrapper_content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.advertisement_second_wrapper_content a {
+  padding-right: 1.1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.advertisement_center_wrapper_content a,
+.advertisement_wrapper_content a {
+  display: block;
+  color: #000;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.advertisement_center_wrapper_content a span:first-child,
+.advertisement_wrapper_content a span:first-child {
+  font-size: 1.3rem;
+  padding-right: 1.1rem;
+}
+.advertisement_second_wrapper_content a:hover,
+.advertisement_center_wrapper_content a:hover,
+.advertisement_wrapper_content a:hover {
+  color: var(--color-blue);
+}
+@media only screen and (max-width: 560px) {
+  .form__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .form__map__container {
+    padding: 30px 5px;
+  }
+  .contact__map {
+    padding: 20px;
+  }
+}

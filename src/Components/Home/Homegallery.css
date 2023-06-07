@@ -1,0 +1,37 @@
+.homegallery__header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.homegallery__header_icon > img {
+  width: 10%;
+}
+.homegallery__header_heading > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.homegallery__header_description {
+  padding: 0px 200px 0px 200px;
+}
+.homegallery__header_description > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #d92938;
+}
+
+@media screen and (max-width: 560px) {
+  .homegallery__header_heading > h1 {
+    font-size: 22px;
+  }
+  .homegallery__header_description {
+    padding: 0px;
+  }
+}

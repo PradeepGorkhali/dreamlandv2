@@ -1,0 +1,70 @@
+.whychoose__container {
+  padding: 20px 0px;
+}
+.whychoose__header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.whychoose__header_icon > img {
+  width: 10%;
+}
+.whychoose__header_heading > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.whychoose__header_description {
+  padding: 0px 200px 0px 200px;
+}
+.whychoose__header_description > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.67);
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.feature {
+  margin-top: 6px;
+}
+.feature > img {
+  width: 157px;
+  height: 157px;
+  left: 85px;
+  top: 257px;
+}
+.feature > h5 {
+  width: 229.09px;
+  height: 70px;
+  left: 49px;
+  top: 451px;
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media screen and (max-width: 560px) {
+  .whychoose__header_heading > h1 {
+    font-size: 22px;
+  }
+  .whychoose__header_description {
+    padding: 4px 5px;
+  }
+}

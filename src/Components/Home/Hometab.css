@@ -1,0 +1,14 @@
+.Hometab__container{
+    display: flex;
+    text-align: center;
+    
+ 
+   
+}
+.css-heg063-MuiTabs-flexContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}

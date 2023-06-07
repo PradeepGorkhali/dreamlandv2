@@ -1,0 +1,8 @@
+.Bloglist__blogitems {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+.featured__image > img {
+  width: 28%;
+}

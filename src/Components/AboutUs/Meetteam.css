@@ -1,0 +1,106 @@
+.item1 {
+  padding: 30px 0px;
+}
+.Meetteam__container__itemone {
+  display: flex;
+  flex-direction: column;
+}
+.Meetteam__container__itemone {
+  display: flex;
+  flex-direction: row;
+}
+.Meetteam__container__itemtwo {
+  display: flex;
+}
+.item1_member_img > img {
+  width: 55%;
+}
+.item1_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.item1_social_wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.item1_member_namedeg > h5 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.item1_member_namedeg > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.Meetteam__header {
+  padding: 30px 25px 30px 25px;
+}
+.Meetteam__header > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 27px;
+  /* or 84% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.advertisement_second_wrapper_content {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+}
+.advertisement_second_wrapper_content a {
+  padding-right: 1.1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.advertisement_center_wrapper_content a,
+.advertisement_wrapper_content a {
+  display: block;
+  color: #000;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.advertisement_center_wrapper_content a span:first-child,
+.advertisement_wrapper_content a span:first-child {
+  font-size: 1.3rem;
+  padding-right: 1.1rem;
+}
+.advertisement_second_wrapper_content a:hover,
+.advertisement_center_wrapper_content a:hover,
+.advertisement_wrapper_content a:hover {
+  color: var(--color-blue);
+}
+@media only screen and (max-width: 560px) {
+  .Meetteam__container__itemone {
+    display: flex;
+    flex-direction: column;
+  }
+  .Meetteam__container__itemtwo {
+    display: flex;
+    flex-direction: column;
+  }
+}

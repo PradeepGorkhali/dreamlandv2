@@ -1,0 +1,104 @@
+.Footer_Conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer_Text_Conatiner {
+  width: 100%;
+  max-width: 1400px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Footer_Title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.Footer_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+}
+.Footer_img > img{
+width: 20%;
+}
+.Footer_Para {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 13px;
+  width: 264px;
+}
+
+.Footer_Heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.Footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  height: 50px;
+}
+.Footer_icon_Box {
+  width: 35px;
+  height: 35px;
+}
+a {
+  text-decoration: none;
+}
+.Footer_Conatiner {
+  min-height: 521px;
+  background: #e7e8e9;
+  margin: 59px auto 0 auto;
+}
+.Footer_Copyright_Conatiner {
+  height: 41px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer_Copyright_Conatiner > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: auto 0px;
+}
+.Footer_call_us {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 20px;
+}
+.Footer_Follow_us {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}

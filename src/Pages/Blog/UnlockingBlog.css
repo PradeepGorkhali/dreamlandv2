@@ -1,0 +1,29 @@
+.home__banner > img {
+  width: 100%;
+}
+.UnlockingBlog__contents {
+  padding: 40px 50px;
+}
+.UnlockingBlog__featured__title > h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.UnlockingBlog__featured__paragraph > p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: justify;
+  /* or 150% */
+
+  color: #000000;
+}

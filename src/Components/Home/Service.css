@@ -1,0 +1,11 @@
+.service__header__items1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.service__itemsone__career_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
